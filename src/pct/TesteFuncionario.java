@@ -17,16 +17,16 @@ public class TesteFuncionario {
         
          Funcionario funcionario = new Funcionario();
          
-         funcionario.numMatricula= 658754;
-         funcionario.nome= "Gilberto D S";
-         funcionario.nivel= 'S'; // T = Trainee, J= Junior, P= Pleno, S= Senior;
-         funcionario.salario= 20000;
-         funcionario.afastado=false;
+         funcionario.setNumMatricula(658754);
+         funcionario.setNome("Gilberto D S");
+         funcionario.setNivel('S'); // T = Trainee, J= Junior, P= Pleno, S= Senior;
+         funcionario.setSalario(20000);
+         funcionario.setAfastado(false);
          
          // Apresentar o  Funcionario
        
        System.out.println("\n\t\t ------ Funcionario ------\n");
-       funcionario.exibirFuncionario();
+       funcionario.apresentarFuncionario();
          
        
        // Calcular o desconto do Salário
@@ -36,7 +36,9 @@ public class TesteFuncionario {
        // Imprimir o Salario com desconto  do INSS
 
        System.out.println("\n\t\t ------Salário com desconto do INSS ------\n");
-       funcionario.exibirFuncionario();
+       funcionario.apresentarFuncionario();
         
     }
+    
+    
 }
