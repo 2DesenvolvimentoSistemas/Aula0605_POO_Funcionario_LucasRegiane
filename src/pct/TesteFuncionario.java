@@ -38,7 +38,13 @@ public class TesteFuncionario {
        System.out.println("\n\t\t ------Salário com desconto do INSS ------\n");
        funcionario.apresentarFuncionario();
         
+       // Criação, instância e contrução de outro funcionário
+       Funcionario outroFuncionario = new Funcionario(587542,"Sergio Lima", 'S', 28000, false);
+    
+        // Apresentar outro funcionário
+       
+        System.out.println("\n\t\t ------Outro Funcionário ------\n");
+        outroFuncionario.apresentarFuncionario();
+        
     }
-    
-    
 }

@@ -131,5 +131,16 @@ public class Funcionario {
     public void setAfastado(boolean afastado) {
         this.afastado = afastado;
     }
+
+    public Funcionario(int numMatricula, String nome, char nivel, double salario, boolean afastado) {
+        this.numMatricula = numMatricula;
+        this.nome = nome;
+        this.nivel = nivel;
+        this.salario = salario;
+        this.afastado = afastado;
+    }
     
+    public  Funcionario(){
+    
+    }
 }
